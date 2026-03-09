@@ -1,0 +1,10 @@
+n = int(input(&quot;Enter number: &quot;))
+if n &gt; 1:
+for i in range(2, int(n**0.5) + 1):
+if n % i == 0:
+print(&quot;Not a prime number&quot;)
+break
+else:
+print(&quot;Prime number&quot;)
+else:
+print(&quot;Not a prime number&quot;)
