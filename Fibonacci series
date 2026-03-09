@@ -1,0 +1,11 @@
+x1 = 0
+x2 = 1
+print(&quot;Fibonacci series from 0 to 50\n&quot;)
+print(x1)
+print(x2)
+x3 = x1 + x2
+while x3 &lt;= 50:
+print(x3)
+x1 = x2
+x2 = x3
+x3 = x1 + x2
